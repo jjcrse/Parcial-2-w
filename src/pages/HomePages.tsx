@@ -7,6 +7,9 @@ function HomePage() {
     <div>
       <h1>Home</h1>
       <p>Mensaje: <strong>{message}</strong></p>
+      <div>
+        <reunionid></reunionid>
+      </div>
     </div>
   );
 }

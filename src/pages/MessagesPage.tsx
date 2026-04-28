@@ -6,7 +6,7 @@ function MessagesPage() {
   const [input, setInput] = useState('');
 
   return (
-    <div style={{ padding: '1rem' }}>
+    <div>
       <h1>Messages</h1>
       <p>Mensaje actual: {message}</p>
 
@@ -17,13 +17,16 @@ function MessagesPage() {
         placeholder="Escribi algo"
       />
       <button onClick={() => setMessage(input)} >
-        Guardar
+        Guardalo
       </button>
       <button onClick={resetMessage} >
-        Reset
+        pa elminar
       </button>
     </div>
   );
 }
 
 export default MessagesPage;
+
+console.log ("Faltan ")
+//me faolta poner pa que cuando agrege el mensajeeee 
